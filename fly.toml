@@ -5,6 +5,7 @@ app = "savvycal-fly-log-shipper"
 [env]
   ORG = "savvycal"
   LOGFLARE_SOURCE_TOKEN = "cea45fa4-e4b0-40a1-b1b1-0e99d23d11ea"
+  SUBJECT = "logs.savvycal-prod.>"
 
 [metrics]
   path = "/metrics"
