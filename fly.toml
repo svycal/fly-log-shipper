@@ -1,5 +1,11 @@
+# fly.toml file generated for savvycal-fly-log-shipper on 2022-06-20T14:14:24-05:00
+
 app = "savvycal-fly-log-shipper"
 
+[env]
+  ORG = "savvycal"
+  LOGFLARE_SOURCE_TOKEN = "cea45fa4-e4b0-40a1-b1b1-0e99d23d11ea"
+
 [metrics]
-  port = 9598
   path = "/metrics"
+  port = 9598
